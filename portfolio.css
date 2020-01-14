@@ -20,3 +20,12 @@ body {
     padding: 1em;
     padding-bottom: 8em;
 }
+
+.email {
+    text-decoration: none;
+    color: black;
+}
+
+.email:hover {
+    color: purple;
+}

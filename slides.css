@@ -1,26 +1,30 @@
 .image-container {
     position: relative;
+    display: inline;
 }
 
 .slide {
+    bottom: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .slide-overlay {
     background: rgba(0, 0, 0, 0.6);
     position: absolute;
     width: 100%;
-    height: 40%;
-    padding-top: 3em;
+    height: auto;
     font-size: 1.5em;
     color: #FFF;
-    bottom: 0;
+    bottom: 10%;
     opacity: 0;
     text-align: center;
 }
+.slide-overlay p {
+    margin: 1em;
+}
 
-.slide-overlay:hover {
+.image-container:hover .slide-overlay{
     opacity: 1;
 }
 
