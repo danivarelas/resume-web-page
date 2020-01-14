@@ -1,0 +1,69 @@
+.nav-bar {
+    display: inline-flex;
+    background-color: black;
+    width: 100%;
+}
+
+.nav-button{
+    box-sizing: content-box;
+    height: 100%;
+    border: none;
+    border-bottom: 0.5em solid gold;
+    width: 20%;
+    background-color: black;
+    text-align: center;
+    padding: 14px;
+    cursor: pointer;
+}
+
+.nav-button:hover{
+    background-color: lightgray;
+}
+
+.nav-button:hover i{
+    color: black;
+}
+
+.nav-button:hover .nav-button-label{
+    color: black;
+}
+
+.nav-button-label {
+    font-size: 1.8em;
+    font-weight: bold;
+    display: block;
+    color: gold;
+}
+
+.nav-button i{
+    font-size: 1.9em;
+    display: none;
+    color: gold;
+}
+
+.nav-button.active {
+    background-color: gold;
+}
+
+.nav-button.active span{
+    color: black;
+}
+
+.nav-button.active i{
+    color: black;
+}
+
+@media (min-width:600px) and (max-width:899px) {
+    .nav-button-label {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width:599px) {
+    .nav-button-label {
+        display: none;
+    }
+    .nav-button i{
+        display: block;
+    }
+}

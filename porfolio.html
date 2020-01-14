@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Daniel Varela</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="title">
+            <h1>Daniel Varela</h1>
+            <hr>
+            <h2>Web Developer</h2>
+        </header>
+        <nav class="nav-bar">
+            <button id="BtnAboutMe" class="nav-button active" onclick="openSection('AboutMe')">
+                <span class="nav-button-label">About Me</span>
+                <i class="fas fa-user"></i>
+            </button>
+            <button id="BtnExperience" class="nav-button" onclick="openSection('Experience')">
+                <span class="nav-button-label">Experience</span>
+                <i class="fas fa-briefcase"></i>
+            </button>
+            <button id="BtnEducation" class="nav-button" onclick="openSection('Education')">
+                <span class="nav-button-label">Education</span>
+                <i class="fas fa-graduation-cap"></i>
+            </button>
+            <button id="BtnSkills" class="nav-button" onclick="openSection('Skills')">
+                <span class="nav-button-label">Skills</span>
+                <i class="fas fa-star"></i>
+            </button>
+            <button id="BtnInterests" class="nav-button" onclick="openSection('Interests')">
+                <span class="nav-button-label">Interests</span>
+                <i class="fas fa-heart"></i>
+            </button>
+        </nav>
+        <div class="container">
+            <section id="AboutMe" class="cv-section">
+                <h3>About Me</h3>
+                <hr>
+                <div class="block">
+                    <h4>Summary</h4>
+                    <div class="block-content summary-section">
+                        <img src="images/profile-picture.jpg" alt="Photo of Daniel Varela" class="profile-photo">
+                        <p class="summary"><em>"I’m a recent graduate in Computer Science, currently pursuing
+                                a career on Software Development. I have professional experience with Agile
+                                Methodologies in a fast paced working environment. I’ve always been passionate
+                                about technology and I’m very committed with my goals. Driven by great challenges
+                                and learning opportunities, I look forward to combining my technical knowledge
+                                with interpersonal and problem solving skills to deliver results."</em>
+                        </p>
+                    </div>
+                </div>
+                <div class="block">
+                    <h4>Personal Information</h4>
+                    <div class="block-content">
+
+                        <div class="info-fields">
+                            <p><strong>Daniel Varela Serrano</strong></p>
+                            <p><i class="fas fa-phone"></i> (506) 8511-3452</p>
+                            <p><i class="fas fa-at"></i> daniel.varela.serrano@gmail.com</p>
+                            <p><i class="fas fa-map-marker-alt"></i> San Jose, Costa Rica</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="Experience" class="cv-section">
+                <h3>Experience</h3>
+                <hr>
+                <div class="block">
+                    <h4>Software Engineer</h4>
+                    <div class="block-content">
+                        <p>
+                            <strong>Intel Corporation</strong><br>
+                            <em>Dec. 2018 - Dec. 2019</em>
+                        </p>
+                        <ul>
+                            <li>Hired by the Intel Student Worker and Internship Program to work with the SharePoint
+                                agile team and help with the infrastructure migration to SharePoint 2019.</li>
+                            <li>Performed database administration on Microsoft SQL Server querying data,reviewing logs,
+                                troubleshooting errors and creating stored procedures.</li>
+                            <li>Developed and debugged PowerShell scripts to automate and improve system and application
+                                tasks
+                                for SharePoint 2010 and SharePoint Online.</li>
+                            <li>Managed and monitored performance on Windows Servers.</li>
+                            <li>Handled SharePoint operations to deliver the best customer experience.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="block ">
+                    <h4>Web Developer Assistant</h4>
+                    <div class="block-content">
+                        <p>
+                            <strong>University of Costa Rica</strong><br>
+                            <em>Mar. 2018 - Dec. 2018</em>
+                        </p>
+                        <ul>
+                            <li>Assistant at the Education Research Institute’s IT Department.</li>
+                            <li>Developed a web module on anexisting site to create IT requests and incidents for
+                                internal users, with Java, Hibernate, JavaServerFaces, MySQL and deployed on WebLogic
+                                Server.</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="block">
+                    <h4>IT Assistant</h4>
+                    <div class="block-content">
+                        <p>
+                            <strong>University of Costa Rica</strong><br>
+                            <em>Mar. 2016 - Dec. 2016</em>
+                        </p>
+                        <ul>
+                            <li>Assistant at the Mathematics School’s IT Department.</li>
+                            <li>Installation, maintenance and update tasks on Linux servers and scripting with Bash.
+                                Software installation and hardware maintenance.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="Education" class="cv-section">
+                <h3>Education</h3>
+                <hr>
+                <div class="block">
+                    <h4>University Studies</h4>
+                    <div class="block-content">
+                        <p>
+                            <strong>University of Costa Rica</strong> <br>
+                            Bachelor in Computer Science <br>
+                            <em>Mar. 2015 - Feb. 2020</em>
+                        </p>
+                    </div>
+                </div>
+                <div class="block">
+                    <h4>Other Studies</h4>
+                    <div class="block-content">
+                        <p>
+                            <strong>Brainstation</strong> <br>
+                            Immersive Program <br>
+                            <em>Jan. 2020 - Feb. 2020</em>
+                        </p>
+                    </div>
+                </div>
+                <div class="block">
+                    <h4>Certifications</h4>
+                    <div class="block-content">
+                        <p>
+                            <strong>AXELOS Global Best Practice</strong> <br>
+                            ITIL®v4 Foundation <br>
+                            <em>Jun. 2019</em>
+                        </p>
+                        <p>
+                            <strong>Scaled Agile, Inc.</strong> <br>
+                            SAFe® 4 Practitioner <br>
+                            <em>Oct. 2019 - Oct. 2020</em>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="Skills" class="cv-section">
+                <h3>Skills</h3>
+                <hr>
+                <div class="block">
+                    <button class="accordion">Programming</button>
+                    <div class="panel">
+                        <p>Java, C++, C#</p>
+                    </div>
+                    <button class="accordion">Scripting</button>
+                    <div class="panel">
+                        <p>Python, PowerShell</p>
+                    </div>
+                    <button class="accordion">Web Development</button>
+                    <div class="panel">
+                        <p>HTML, CSS, JavaScript, ASP .NET, Hibernate, JavaServer Faces</p>
+                    </div>
+                    <button class="accordion">Mobile Development</button>
+                    <div class="panel">
+                        <p>Android</p>
+                    </div>
+                    <button class="accordion">Database Management</button>
+                    <div class="panel">
+                        <p>MySQL, Oracle, Microsoft SQL Server</p>
+                    </div>
+                    <button class="accordion">Tools</button>
+                    <div class="panel">
+                        <p>Git, Agile Methodologies</p>
+                    </div>
+                    <button class="accordion">Languages</button>
+                    <div class="panel">
+                        <p>Spanish (Native), English (Advanced)</p>
+                    </div>
+                </div>
+            </section>
+            <section id="Interests" class="cv-section">
+                <h3>Interests</h3>
+                <hr>
+                <div class="block">
+                    <div class="image-container">
+                        <img class="slide" src="images/triathlon.jpg" alt="Triathlon">
+                        <div class="slide-overlay">Triathlon</div>
+                    </div>
+                    <div class="image-container">
+                        <img class="slide" src="images/videogames.jpg" alt="Videogames">
+                        <div class="slide-overlay">Videogames</div>
+                    </div>
+                    <div class="image-container">
+                        <img class="slide" src="images/movies.jpg" alt="Movies">
+                        <div class="slide-overlay">Movies</div>
+                    </div>
+                    <div class="image-container">
+                        <img class="slide" src="images/travel.jpg" alt="Travel">
+                        <div class="slide-overlay">Traveling</div>
+                    </div>
+                    <div class="slides-buttons-container ">
+                        <button class="button-slide " onclick="changeSlide(-1)">&#10094;</button>
+                        <button class="button-slide " onclick="changeSlide(+1)">&#10095;</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <p>Follow me</p>
+                <a href="https://www.facebook.com/danivarelas" target="_blank"><i class="fab fa-facebook fb"></i></a>
+                <a href="https://www.twitter.com/danivarelas" target="_blank"><i class="fab fa-twitter tt"></i></a>
+                <a href="https://www.instagram.com/danivarelas" target="_blank"><i
+                        class="fab fa-instagram insta"></i></a>
+                <a href="https://www.linkedin.com/in/daniel-varela-serrano/" target="_blank"><i
+                        class="fab fa-linkedin in"></i></a>
+            </div>
+        </footer>
+    </div>
+    <script src="portfolio.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js" data-auto-replace-svg="nest"></script>
+</body>
+
+</html>

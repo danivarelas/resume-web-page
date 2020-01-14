@@ -1,0 +1,63 @@
+.image-container {
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+}
+
+.slide-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    padding-top: 3em;
+    font-size: 1.5em;
+    color: #FFF;
+    bottom: 0;
+    opacity: 0;
+    text-align: center;
+}
+
+.slide-overlay:hover {
+    opacity: 1;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.slides-buttons-container {
+    text-align: center;
+    display: block
+}
+
+.button-slide {
+    border: none;
+    opacity: 0.6;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    height: 3em;
+    width: 3em;
+}
+
+.button-slide:hover {
+    opacity: 1;
+}
+
+@media (max-width:599px) {
+    .slide-overlay {
+        padding-top: 1em;
+        font-size: 1em;
+    }
+}

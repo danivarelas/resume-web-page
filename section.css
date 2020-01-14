@@ -1,0 +1,124 @@
+.cv-section {
+    display: none;
+    width: 100%;
+}
+
+.cv-section h3 {
+    font-size: 2em;
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+.cv-section hr {
+    text-align: center;
+    border: none;
+    border-bottom: 0.5em solid gold;
+    color: white;
+    width: 5em;
+    margin: auto;
+    height: 0.01em;  
+}
+
+.summary {
+    text-align: center;
+    color: grey;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+.block {
+    background-color: #eee;
+    padding: 2em;
+    margin-top: 1.5em;
+    overflow: hidden;
+}
+
+.block-flex {
+    display: flex;
+}
+
+.block-content {
+    box-sizing: border-box;
+    padding: 1em;
+    background-color: lightgray;
+    width: 100%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.block-content .profile-photo{
+    width: 30%;
+    height: auto;
+    margin: 2em;
+    float: left;
+    max-height: 480px;
+    max-width: 360px;
+}
+
+.block h4 {
+    text-align: center;
+    font-size: 3em;
+    margin: 0.5em 0;
+    width: 100%;
+}
+
+.info-fields {
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.block p {
+    display: block;
+    font-size: 1.5em;
+    margin: 1em 0;
+    height: 100%;
+}
+
+.block ul li {
+    font-size: 1.2em;
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    .block-content .profile-photo{
+        width: 40%;
+        height: auto;
+        margin: 1.5em;
+    }
+    .block h4 {
+        font-size: 2.5em;
+        text-align: center;
+        margin: 0.5em;
+    }
+    .block p {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 599px) {
+    .block-flex {
+        display: block;
+    }
+    .block h4 {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 0.5em;
+    }
+    .block p {
+        font-size: 1em;
+        margin: 0.5em;
+    }
+    .block ul li {
+        font-size: 1em;
+    }
+    .block-content .profile-photo{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        float: none;
+        max-width: none;
+        max-height: none;
+    }
+    .summary {
+        padding: 0em;
+    }
+}

@@ -1,0 +1,36 @@
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 1em 0;
+}
+
+.footer-content p {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.footer-content i, .footer-content a{
+    font-size: 1.5em;
+    margin-right: 5px;
+    color: black;
+}
+
+.footer-content i:hover.fb {
+    color: #3b5998;
+}
+
+.footer-content i:hover.tt {
+    color: #00acee;
+}
+
+.footer-content i:hover.insta {
+    color: #bc2a8d;
+}
+
+.footer-content i:hover.in {
+    color: #0e76a8;
+}

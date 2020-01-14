@@ -1,0 +1,47 @@
+.title {
+    box-sizing: border-box;
+    background-color: black;
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1em;
+}
+
+.title h1,h2{
+    display: block;
+    color: white;
+    margin: 0;
+}
+
+.title h1{
+    font-size: 2.5em;
+}
+
+.title h2{
+    font-size: 1.5em;
+    
+}
+
+.title hr{ 
+    border: none;
+    border-bottom: 0.2em solid white;
+    color: white;
+    width: 17em;
+    margin: 0.5em 0;
+    height: 0.01em;
+}
+
+@media (min-width:600px) {
+    .title {
+        display: flex;
+    }
+    .title hr{ 
+        border: none;
+        border-left: 0.2em solid white;
+        color: white;
+        height: 3em;
+        margin: 0 1em;
+        width: 0.01em;       
+    }
+}
